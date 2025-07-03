@@ -12,7 +12,7 @@ const Card = ({ card, handleChoice, flipped, disabled }) => {
         <img className="front" src={card.src} alt="card front" />
         <img
           className="back"
-          src="/images/cover.png"
+          src="https://cdn-icons-png.flaticon.com/512/1077/1077114.png" // ✅ Fixed back image
           onClick={handleClick}
           alt="card back"
         />

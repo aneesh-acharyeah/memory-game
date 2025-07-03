@@ -9,14 +9,14 @@ const App = () => {
   const [choiceTwo, setChoiceTwo] = useState(null);
   const [disabled, setDisabled] = useState(false);
 
-  // Card images
+  // Public card images (Unsplash)
   const cardImages = [
-    { src: "/images/helmet-1.png", matched: false },
-    { src: "/images/potion-1.png", matched: false },
-    { src: "/images/ring-1.png", matched: false },
-    { src: "/images/scroll-1.png", matched: false },
-    { src: "/images/shield-1.png", matched: false },
-    { src: "/images/sword-1.png", matched: false },
+    { src: "https://images.pexels.com/photos/1170986/pexels-photo-1170986.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500", matched: false },
+    { src: "https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*", matched: false },
+    { src: "https://naturecanada.ca/wp-content/uploads/2022/01/January-2022-3.png", matched: false },
+    { src: "https://images.birdfact.com/production/long-eared-owl_2023-04-14-102503_wnsy.jpg?w=1800&h=1350&q=80&auto=format&fit=crop&crop=focalpoint&fp-x=0.5041&fp-y=0.4225&dm=1685704061&s=a4f77c53492843f3bbe9ab96ead9f513", matched: false },
+    { src: "https://safariavventura.com/wp-content/uploads/2018/02/leone-africano-2-750x500.jpg", matched: false },
+    { src: "https://theheritageart.com/wp-content/uploads/2022/12/Bengal-Tiger.webp", matched: false },
   ];
 
   // Shuffle cards
